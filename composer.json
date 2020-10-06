@@ -18,6 +18,9 @@
         "ext-curl": "*",
         "phpunit/phpunit": "~4.0"
     },
+    "replace": {
+        "guzzlehttp/ringphp": "self.version"
+    },
     "suggest": {
         "ext-curl": "Guzzle will use specific adapters if cURL is present"
     },
